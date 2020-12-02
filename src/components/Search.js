@@ -3,7 +3,7 @@ import React from 'react'
 const Search = (props) =>{
   return(
     <div>
-      <input type="text" onChange={(event)=>props.changeSearchedWord(event.target.value)}/>
+      <input placeholder="Filter food" type="text" onChange={(event)=>props.changeSearchedWord(event.target.value)}/>
     </div>
   )
 }
